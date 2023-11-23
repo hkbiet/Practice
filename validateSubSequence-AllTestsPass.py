@@ -12,6 +12,4 @@ def isValidSubsequence(array, sequence):
     if sequence_traverser == len(sequence):
         if sequence[sequence_traverser-1] == array[array_traverser-1]:
             return True
-        else:
-            return False
     return False
