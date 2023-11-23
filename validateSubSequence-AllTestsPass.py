@@ -1,4 +1,5 @@
 def isValidSubsequence(array, sequence):
+    # Passing all tests.
     sequence_traverser = 0
     array_traverser = 0
 
